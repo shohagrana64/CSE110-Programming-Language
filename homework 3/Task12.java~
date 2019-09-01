@@ -1,0 +1,19 @@
+import java.util.*;
+public class Task12{
+  public static void main(String [] args){
+    Scanner sc= new Scanner(System.in);
+    int Temp,a,b,c;
+    System.out.println("Enter 1st number");
+    a=sc.nextInt();
+    System.out.println("Enter 2nd number");
+     b=sc.nextInt();
+     Temp=a;
+     a=c;
+     c=b;
+     b=Temp;
+      System.out.println(a);
+      System.out.println(b);
+      System.out.println(c);
+    sc.close();
+  }
+}
