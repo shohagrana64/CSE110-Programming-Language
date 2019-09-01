@@ -1,0 +1,20 @@
+//JAVA code for printing power of 10
+
+import java.util.Scanner;
+
+public class H4T19
+{
+ public static void main(String[]args)
+ {
+  Scanner input= new Scanner(System.in);
+  System.out.println("Enter a number");
+  int N= input.nextInt();
+  int i=1;
+  for(int c=1;c<=N;c++)
+  {
+   i=i*10;
+   
+  }
+  System.out.println(i);
+ }
+}
